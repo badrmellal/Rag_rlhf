@@ -22,7 +22,7 @@ def prepare_dataset(sample_size=None, min_quality=1):
     """
     print("Loading DarijaBridge dataset...")
     # Load dataset from Hugging Face
-    dataset = load_dataset("MAD-community/DarijaBridge")
+    dataset = load_dataset("M-A-D/DarijaBridge")
     print(f"Dataset loaded with {len(dataset['train'])} entries")
 
     # Convert to pandas DataFrame
